@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPSS", "WPSS\WPSS.csproj", "{1AC44F4E-8832-45A3-8A00-9D53176B9B6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XizheC", "XizheC\XizheC.csproj", "{228A05BD-CF5F-47E6-9782-DD0E19483C6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateDeliveryDate", "UpdateDeliveryDate\UpdateDeliveryDate.csproj", "{AD7168E4-E68A-4130-82FA-32A2C16F5707}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "进销存状态更新程序", "进销存状态更新程序\进销存状态更新程序.vdproj", "{771EA22C-7BBB-42A9-9F9F-AC92A6D6D923}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AC44F4E-8832-45A3-8A00-9D53176B9B6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AC44F4E-8832-45A3-8A00-9D53176B9B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AC44F4E-8832-45A3-8A00-9D53176B9B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AC44F4E-8832-45A3-8A00-9D53176B9B6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{228A05BD-CF5F-47E6-9782-DD0E19483C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{228A05BD-CF5F-47E6-9782-DD0E19483C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{228A05BD-CF5F-47E6-9782-DD0E19483C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{228A05BD-CF5F-47E6-9782-DD0E19483C6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD7168E4-E68A-4130-82FA-32A2C16F5707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7168E4-E68A-4130-82FA-32A2C16F5707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7168E4-E68A-4130-82FA-32A2C16F5707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7168E4-E68A-4130-82FA-32A2C16F5707}.Release|Any CPU.Build.0 = Release|Any CPU
+		{771EA22C-7BBB-42A9-9F9F-AC92A6D6D923}.Debug|Any CPU.ActiveCfg = Debug
+		{771EA22C-7BBB-42A9-9F9F-AC92A6D6D923}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

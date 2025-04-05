@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="LEND" targetNamespace="http://tempuri.org/LEND.xsd" xmlns:mstns="http://tempuri.org/LEND.xsd" xmlns="http://tempuri.org/LEND.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="LEND" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="LEND" msprop:Generator_DataSetName="LEND" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_TablePropName="DataTable1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="公司名称" msprop:Generator_UserColumnName="公司名称" msprop:Generator_ColumnVarNameInTable="column公司名称" msprop:Generator_ColumnPropNameInRow="公司名称" msprop:Generator_ColumnPropNameInTable="公司名称Column" type="xs:string" minOccurs="0" />
+              <xs:element name="客户名称" msprop:Generator_UserColumnName="客户名称" msprop:Generator_ColumnVarNameInTable="column客户名称" msprop:Generator_ColumnPropNameInRow="客户名称" msprop:Generator_ColumnPropNameInTable="客户名称Column" type="xs:string" minOccurs="0" />
+              <xs:element name="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="品名" msprop:Generator_UserColumnName="品名" msprop:Generator_ColumnVarNameInTable="column品名" msprop:Generator_ColumnPropNameInRow="品名" msprop:Generator_ColumnPropNameInTable="品名Column" type="xs:string" minOccurs="0" />
+              <xs:element name="借出数量" msprop:Generator_UserColumnName="借出数量" msprop:Generator_ColumnVarNameInTable="column借出数量" msprop:Generator_ColumnPropNameInRow="借出数量" msprop:Generator_ColumnPropNameInTable="借出数量Column" type="xs:string" minOccurs="0" />
+              <xs:element name="借出日期" msprop:Generator_UserColumnName="借出日期" msprop:Generator_ColumnVarNameInTable="column借出日期" msprop:Generator_ColumnPropNameInRow="借出日期" msprop:Generator_ColumnPropNameInTable="借出日期Column" type="xs:string" minOccurs="0" />
+              <xs:element name="日租金" msprop:Generator_UserColumnName="日租金" msprop:Generator_ColumnVarNameInTable="column日租金" msprop:Generator_ColumnPropNameInRow="日租金" msprop:Generator_ColumnPropNameInTable="日租金Column" type="xs:string" minOccurs="0" />
+              <xs:element name="押金" msprop:Generator_UserColumnName="押金" msprop:Generator_ColumnVarNameInTable="column押金" msprop:Generator_ColumnPropNameInRow="押金" msprop:Generator_ColumnPropNameInTable="押金Column" type="xs:string" minOccurs="0" />
+              <xs:element name="借出员" msprop:Generator_UserColumnName="借出员" msprop:Generator_ColumnVarNameInTable="column借出员" msprop:Generator_ColumnPropNameInRow="借出员" msprop:Generator_ColumnPropNameInTable="借出员Column" type="xs:string" minOccurs="0" />
+              <xs:element name="借出单号" msprop:Generator_UserColumnName="借出单号" msprop:Generator_ColumnVarNameInTable="column借出单号" msprop:Generator_ColumnPropNameInRow="借出单号" msprop:Generator_ColumnPropNameInTable="借出单号Column" type="xs:string" minOccurs="0" />
+              <xs:element name="单据日期" msprop:Generator_UserColumnName="单据日期" msprop:Generator_ColumnVarNameInTable="column单据日期" msprop:Generator_ColumnPropNameInRow="单据日期" msprop:Generator_ColumnPropNameInTable="单据日期Column" type="xs:string" minOccurs="0" />
+              <xs:element name="客户电话或供应商电话" msprop:Generator_UserColumnName="客户电话或供应商电话" msprop:Generator_ColumnVarNameInTable="column客户电话或供应商电话" msprop:Generator_ColumnPropNameInRow="客户电话或供应商电话" msprop:Generator_ColumnPropNameInTable="客户电话或供应商电话Column" type="xs:string" minOccurs="0" />
+              <xs:element name="归还数量" msprop:Generator_UserColumnName="归还数量" msprop:Generator_ColumnPropNameInRow="归还数量" msprop:Generator_ColumnVarNameInTable="column归还数量" msprop:Generator_ColumnPropNameInTable="归还数量Column" type="xs:string" minOccurs="0" />
+              <xs:element name="租赁天数" msprop:Generator_UserColumnName="租赁天数" msprop:Generator_ColumnPropNameInRow="租赁天数" msprop:Generator_ColumnVarNameInTable="column租赁天数" msprop:Generator_ColumnPropNameInTable="租赁天数Column" type="xs:string" minOccurs="0" />
+              <xs:element name="租金" msprop:Generator_UserColumnName="租金" msprop:Generator_ColumnPropNameInRow="租金" msprop:Generator_ColumnVarNameInTable="column租金" msprop:Generator_ColumnPropNameInTable="租金Column" type="xs:string" minOccurs="0" />
+              <xs:element name="退还押金" msprop:Generator_UserColumnName="退还押金" msprop:Generator_ColumnPropNameInRow="退还押金" msprop:Generator_ColumnVarNameInTable="column退还押金" msprop:Generator_ColumnPropNameInTable="退还押金Column" type="xs:string" minOccurs="0" />
+              <xs:element name="归还日期" msprop:Generator_UserColumnName="归还日期" msprop:Generator_ColumnPropNameInRow="归还日期" msprop:Generator_ColumnVarNameInTable="column归还日期" msprop:Generator_ColumnPropNameInTable="归还日期Column" type="xs:string" minOccurs="0" />
+              <xs:element name="归还单号" msprop:Generator_UserColumnName="归还单号" msprop:Generator_ColumnPropNameInRow="归还单号" msprop:Generator_ColumnVarNameInTable="column归还单号" msprop:Generator_ColumnPropNameInTable="归还单号Column" type="xs:string" minOccurs="0" />
+              <xs:element name="归还员" msprop:Generator_UserColumnName="归还员" msprop:Generator_ColumnPropNameInRow="归还员" msprop:Generator_ColumnVarNameInTable="column归还员" msprop:Generator_ColumnPropNameInTable="归还员Column" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
